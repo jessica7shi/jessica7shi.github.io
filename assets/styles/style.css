@@ -110,6 +110,11 @@
 	color: #FFFFFF;
 }
 
+#about:hover{
+	cursor: pointer;
+
+}
+
 .window {
     display: none; 
     position: absolute; 
