@@ -1,0 +1,224 @@
+
+/* All */
+
+.main{
+	text-align: center;
+	font-family: 'Fredericka the Great';font-size: 40px;
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 40px;
+	color: #464646;
+}
+
+.row {
+	display:flex;
+	flex-direction: row;
+}
+
+.sub{
+	text-align:center;
+	text-decoration:none;
+	font-family: "Open Sans Condensed";
+	font-size: 20px;
+	color: #464646;
+}
+
+
+
+/* Home Page */
+
+#right-side {
+	position: fixed;
+	height: 100%;
+	width: 50%;
+	right: 0;
+	top: 0;
+	z-index: 1;
+	overflow-x: hidden;
+	align-content: center;
+}
+
+.column{
+	display:flex;
+	flex-direction: column;
+	right: 10px;
+	position: absolute;
+}
+.fa {
+	padding: 5px;
+	text-decoration: none;
+	border-radius: 50%;
+	margin: 5px;
+	background:#dadada;
+	color:white;
+}
+.hello{
+	text-decoration:none;
+	font-family: "Open Sans Condensed";
+	font-size: 20px;
+	color: #464646;
+}
+
+#left-side {
+	position: fixed;
+	height: 100%;
+	width: 50%;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	overflow-x: hidden;
+	align-content: center;
+}
+
+
+.icon {
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+
+.label {
+	margin-left: 30px;
+}
+
+.icon:hover{
+	transform: scale(1.2)
+}
+.label {
+	text-align:center;
+	text-decoration:none;
+	font-family: "Open Sans Condensed";
+	font-size: 16px;
+	color: #464646;
+
+}
+
+#about{
+	position:fixed;
+	top: 1%;
+	left: 1%;
+	z-index:1;
+	background-color: rgba(0,0,0,0);
+	border: none; 
+	text-align: center; 
+	text-decoration: none; 
+	display: inline-block; 
+	font-family: "Open Sans Condensed";
+	font-size: 16px;	
+	color: #FFFFFF;
+}
+
+.window {
+    display: none; 
+    position: absolute; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+
+.windowcontent {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	width: 80%;
+	font-family: "Open Sans Condensed";
+	color: #464646;
+
+}
+
+#windowphoto{
+	position: relative; 
+	left: 30%;
+}
+
+.close {
+    color: #aaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #464646;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.image{
+	position:absolute;
+	height: 100%;
+	width: 100%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	position: absolute;
+}
+
+.allimage{
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+
+}
+
+#s1{
+	background-image: url("../img/lily1.jpg");
+}
+
+#s2{
+	background-image: url("../img/money1.jpg");
+
+}
+#s3{
+	background-image: url("../img/pearl1.jpg");
+}
+#s4{
+	background-image: url("../img/snake1.jpg");
+
+}
+/* Individual Pages */
+
+#home{
+	position:absolute;
+	margin-top: 5px;
+	margin-left: 10px;
+	opacity: 0.2;
+}
+
+.logo, .info, #overview{
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+
+#overview, .text{
+	font-family: "Open Sans Condensed";
+	color: #464646;
+
+}
+
+.miniimage{
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+
+}
+
+#ellipsis{
+	position:fixed;
+	margin-top: 48%;
+	margin-left: 22%;
+	text-align: center;
+	font-family: 'Fredericka the Great';font-size: 40px;
+	color: #FFFFFF;
+;
+}
